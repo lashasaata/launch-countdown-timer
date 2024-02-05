@@ -2,3 +2,118 @@
 html {
   font-size: 10px;
 }
+body {
+  background-image: url(images/bg-stars.svg);
+  background-repeat: no-repeat;
+  background-color: #1d1620;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Red Hat Text";
+}
+h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 7.5px;
+  color: #fff;
+  margin-top: 80px;
+}
+main {
+  display: flex;
+  gap: 32px;
+  margin: 104px 0px 152px;
+}
+.timeBoxs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  position: relative;
+  width: 148px;
+}
+.page {
+  position: absolute;
+  background-color: #000;
+  width: 148px;
+  height: 70px;
+  opacity: 0.15;
+  border-radius: 8px 8px 0px 0px;
+}
+.display {
+  position: relative;
+  width: 148px;
+  height: 140px;
+  flex-grow: 0;
+  border-radius: 8px;
+  background-color: #343650;
+  overflow: hidden;
+  box-shadow: 0 10px 10px -2px rgb(0 0 0);
+}
+.leftBall {
+  background-color: #191a23;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 64px;
+  left: -6px;
+}
+.rightBall {
+  background-color: #191a23;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 64px;
+  right: -6px;
+}
+.hr {
+  position: absolute;
+  top: 69.5px;
+  width: 148px;
+  height: 1px;
+  opacity: 0.25;
+  background-color: #000;
+}
+p {
+  margin-top: 34px;
+  font-size: 8rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: -2.4px;
+  text-align: center;
+  color: #fb5e84;
+}
+span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 5.92px;
+  color: #8385a9;
+}
+footer {
+  background-image: url(images/pattern-hills.svg);
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 196px;
+}
+footer div {
+  display: flex;
+  gap: 32px;
+  margin-top: 100px;
+  height: 24px;
+}
+img:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 5px #fb5e84);
+}
